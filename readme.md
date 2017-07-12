@@ -6,7 +6,7 @@ Simple vim setup.
 
 First, let's make a directory to house all vim config files 
 ```bash 
-mkdir ~/.vim; cd ~/vim
+mkdir ~/.vim; cd ~/.vim
 ```
 
 Next, let's clone all relevant git repos.
