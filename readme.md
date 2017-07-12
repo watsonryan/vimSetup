@@ -1,15 +1,30 @@
 # My vim setup
 
+Simple vim setup.  
+
 ### Install prerequisite
 
-```bash
+First, let's make a directory to house all vim config files 
+```bash 
 mkdir ~/.vim; cd ~/vim
-git clone
-mv vimrc ~/.vimrc; mv Xmodmap ~/.Xmodmap;
+```
+
+Next, let's clone all relevant git repos.
+
+```bash 
+git clone https://github.com/watsonryan/vimSetup.git
 git clone https://github.com/tpope/vim-pathogen.git
+git clone https://github.com/flazz/vim-colorschemes.git
+```
+
+Now, lets start setting up vim.
+
+```bash
+mv vimSetup/vimrc ~/.vimrc; mv vimSetup/Xmodmap ~/.Xmodmap;
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 cp vim-pathogen/autoload/pathogen.vim autoload
-git clone https://github.com/flazz/vim-colorschemes.git
 cd vim-colorschemes
 git submodule add https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
-
+mkdir colors; cp -R vim-colorschemes/bundle/colorschemes/colors/* colors
+```
+Hopefully it works. 
