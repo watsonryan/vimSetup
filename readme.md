@@ -15,6 +15,7 @@ Next, let's clone all relevant git repos.
 git clone https://github.com/watsonryan/vimSetup.git
 git clone https://github.com/tpope/vim-pathogen.git
 git clone https://github.com/flazz/vim-colorschemes.git
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 ```
 
 Now, lets start setting up vim.
