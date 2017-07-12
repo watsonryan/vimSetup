@@ -26,6 +26,7 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle
 cp vim-pathogen/autoload/pathogen.vim autoload
 cd vim-colorschemes
 git submodule add https://github.com/flazz/vim-colorschemes.git bundle/colorschemes
+cd ..;
 mkdir colors; cp -R vim-colorschemes/bundle/colorschemes/colors/* colors
 ```
 Hopefully it works. 
