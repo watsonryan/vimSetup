@@ -277,3 +277,5 @@ let g:rails_projections = {
   \   'affinity': 'model'
   \ }}
 
+autocmd VimEnter * NERDTree¬                                                         
+autocmd VimEnter * wincmd p¬ 
