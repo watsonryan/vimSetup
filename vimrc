@@ -31,7 +31,7 @@ filetype indent on
 filetype on
 set clipboard=unnamed
 set background=dark
-colorscheme solarized
+colorscheme landscape
 set backspace=indent,eol,start
 
 set t_Co=256
