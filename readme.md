@@ -1,6 +1,6 @@
 # My vim setup
 
-Simple vim setup.  
+Simple vim configuration.  
 
 ### Install prerequisite
 
